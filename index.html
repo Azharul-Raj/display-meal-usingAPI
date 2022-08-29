@@ -15,9 +15,15 @@
   <body>
     <main>
       <h2 class="text-center">DISPLAYING MEAL USING API</h2>
-      <div class="container text-center m-5 ">
-        <input class="w-75" type="search" name="" id="search" placeholder="Search food">
-      <input class="btn btn-primary" type="button" value="Search Food">
+      <div class="container text-center m-5">
+        <input
+          class="w-75 p-2"
+          type="search"
+          name=""
+          id="search"
+          placeholder="Search food"
+        />
+        <input onclick="searchMeal()" id="search-btn" class="btn p-2 btn-primary" type="button" value="Search Food" />
       </div>
       <section class="container">
         <div id="show-meal" class="row row-cols-1 row-cols-md-3 g-4"></div>
